@@ -1,0 +1,50 @@
+body {
+	background: #34495e;
+	margin-left: 300px;
+	margin-top: 150px;
+	padding: 0px;
+}
+
+.ab {
+	text-align: center;
+	margin-top: 100px;
+	margin-left: 150px;
+	padding: 50px;
+	background: #191919;
+	color: white;
+	width: 350px;
+}
+
+.ab input[type="text"], .ab input[type="password"] {
+	border: 2px solid blue;
+	background: none;
+	text-align: center;
+	display: block;
+	margin: 20px auto;
+	padding: 10px;
+	color: white;
+	border-radius: 20px;
+	transition: 0.25s;
+	outline: none;
+}
+
+.ab input[type="text"]:hover, .ab input[type="password"]:hover {
+	width: 280px;
+	border-color: green;
+}
+
+.ab input[type="submit"] {
+	width: 100px;
+	text-align: center;
+	color: white;
+	border: 2px solid blue;
+	padding: 8px;
+	border-radius: 20px;
+	background: none;
+}
+
+.ab input[type="submit"]:hover {
+	width: 130px;
+	outline-color: green;
+	border-color: green;
+}

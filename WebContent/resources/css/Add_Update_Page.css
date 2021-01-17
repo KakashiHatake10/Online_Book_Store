@@ -1,0 +1,35 @@
+@charset "ISO-8859-1";
+
+form {
+	margin-left: 500px;
+	padding-top: 62px;
+}
+
+fieldset {
+	margin-left: 0px;
+	margin-right: 500px;
+	background-color: #eeeeee;
+	border-left: 6px solid red;
+	background-color: lightgrey;
+}
+
+input, select, textarea {
+	margin-left: 194px;
+	margin-bottom: 15px;
+	border-left: 6px solid green;
+	background-color: lightgrey;
+	width: 250px;
+	height: 40px;
+}
+
+button {
+	border: none;
+	outline: 0;
+	padding: 12px;
+	color: white;
+	background-color: green;
+	text-align: center;
+	cursor: pointer;
+	width: 100%;
+	font-size: 18px;
+}

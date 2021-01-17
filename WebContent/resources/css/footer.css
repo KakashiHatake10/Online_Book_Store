@@ -1,0 +1,97 @@
+@charset "ISO-8859-1";
+
+footer {
+	clear: both;
+	overflow: auto;
+	background-color: rgba(208, 207, 207, 1.00);
+	font-family: source-sans-pro, sans-serif;
+	font-style: normal;
+	font-weight: 200;
+	line-height: 1.8;
+	padding-top: 22px;
+	padding-left: 22px;
+	text-align: center;
+	padding-bottom: 22px;
+	text-decoration: none;
+	padding-right: 22px;
+	margin-top: 20px;
+}
+
+footer ul li {
+	text-decoration: none;
+}
+
+footer div {
+	width: 32%;
+	margin-left: 10%;
+	text-decoration: none;
+	float: left;
+	padding-left: 4%;
+	padding-right: 2%;
+	color: rgba(255, 255, 255, 1.00);
+	text-align: justify;
+}
+/* Links in footer */
+footer div a {
+	color: rgba(146, 146, 146, 1.00);
+	display: block;
+	text-decoration: none;
+	text-decoration: none;
+	text-align: center;
+}
+
+.footerlinks {
+	width: 100%;
+	position: relative;
+	top: 17px;
+	clear: both;
+	text-align: center;
+	margin-left: 0.1%;
+	left: 0%;
+	padding-bottom: 19px;
+	text-decoration: none;
+}
+/* Footer region */
+footer {
+	padding-left: 16px;
+	overflow: hidden;
+	text-decoration: none;
+}
+
+.footerlinks .fa {
+	padding: 20px;
+	font-size: 30px;
+	width: 30px;
+	text-align: center;
+	text-decoration: none;
+	margin: 5px 2px;
+	border-radius: 50%;
+}
+
+.footerlinks .fa:hover {
+	opacity: 0.7;
+}
+
+.fa:hover {
+	opacity: 0.7;
+}
+
+.fa-facebook {
+	background: #3B5998;
+	color: white;
+}
+
+.fa-twitter {
+	background: #55ACEE;
+	color: white;
+}
+
+.fa-instagram {
+	background: #125688;
+	color: white;
+}
+
+.fa-pinterest {
+	background: #cb2027;
+	color: white;
+}
